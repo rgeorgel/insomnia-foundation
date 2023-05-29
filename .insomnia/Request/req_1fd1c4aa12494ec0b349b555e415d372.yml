@@ -1,0 +1,39 @@
+_id: req_1fd1c4aa12494ec0b349b555e415d372
+type: Request
+parentId: fld_6605da35c3314db48805175c792aaec2
+modified: 1684984992476
+created: 1684984706108
+url: "{{ _.domain }}/api/admin/V1/brand"
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": "01H185EYNWKPRZBWP533MCQGWP",
+      "name": "Ricardo's",
+      "active": true,
+      "signupTokenRewards": 500
+    }
+parameters: []
+headers:
+  - name: accept
+    value: application/json
+    id: pair_63983e120b4a4349851cc13b94b980aa
+  - name: Content-Type
+    value: application/json
+    id: pair_c7977ad6e2404bc5a1dc74b258a5296a
+  - id: pair_0360f958ded74c348e58560121c5683f
+    name: authorization
+    value: bearer {{ _.JWT }}
+    description: ""
+authentication: {}
+metaSortKey: -1684984706108
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

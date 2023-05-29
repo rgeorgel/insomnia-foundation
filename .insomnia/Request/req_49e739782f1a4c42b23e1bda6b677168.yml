@@ -1,0 +1,36 @@
+_id: req_49e739782f1a4c42b23e1bda6b677168
+type: Request
+parentId: fld_6605da35c3314db48805175c792aaec2
+modified: 1684985237217
+created: 1684985024506
+url: "{{ _.domain }}/api/admin/V1/brand"
+name: list - no filter
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: limit
+    value: "10"
+  - name: offset
+    value: "0"
+  - name: filters
+    value: '{"fields":[],"op": "AND"}'
+  - name: sorting
+    value: '[{"field":"name","direction":"DESC"}]'
+headers:
+  - name: accept
+    value: application/json
+    id: pair_63983e120b4a4349851cc13b94b980aa
+  - id: pair_0360f958ded74c348e58560121c5683f
+    name: authorization
+    value: bearer {{ _.JWT }}
+    description: ""
+authentication: {}
+metaSortKey: -1684977508037.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,20 @@
+_id: env_5dd74635e30543dda35a2a5feb2127ee
+type: Environment
+parentId: env_2d312fa4a38f64e5e33179988bc01f9ae33efb11
+modified: 1685024116699
+created: 1684984816038
+name: Local
+data:
+  domain: http://localhost:3000
+  JWT: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODQ5ODQ4OTMsIm5iZiI6MTY4NDk4NDg5MywiZXhwIjoxNjkyNzYwODkzLCJqdGkiOiJWU3d1RFAjNlItTzNLNl94IiwiaXNzIjoiQ3VsdG9zIiwiYXVkIjoiY3VsdG9zLmlvIiwiZGF0YSI6eyJ1c2VySUQiOiIwMUgxODVFWVM0S0MzNzA5V045NVpTRjJEMiIsIm5hbWUiOiJSaWNhcmRvIiwicm9sZSI6Ik9XTkVSIiwiYnJhbmRJRCI6IjAxSDE4NUVZTldLUFJaQldQNTMzTUNRR1dQIn19.4WZwpZpiqoygUrp0LCFOE9fiFpj338lQuG0WyYwHiE9OrjftJselmvd1SZMZWF-FTREEjZZYxA3CxIniykyllQ
+  brandID: 01H185EYNWKPRZBWP533MCQGWP
+  apiKey: 01H185EYNW06WQ2STQM65C6KB8
+dataPropertyOrder:
+  "&":
+    - domain
+    - JWT
+    - brandID
+    - apiKey
+color: "#44ff00"
+isPrivate: false
+metaSortKey: 1684984816038

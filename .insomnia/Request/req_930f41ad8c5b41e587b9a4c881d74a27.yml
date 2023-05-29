@@ -1,0 +1,28 @@
+_id: req_930f41ad8c5b41e587b9a4c881d74a27
+type: Request
+parentId: fld_a279c1b1c15942a89219609823242f4f
+modified: 1685024267481
+created: 1685024021096
+url: "{{ _.domain }}/api/V1/brand/{{ _.brandID }}/customer"
+name: list - no filter
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: accept
+    value: application/json
+    id: pair_63983e120b4a4349851cc13b94b980aa
+  - id: pair_0360f958ded74c348e58560121c5683f
+    name: x-api-key
+    value: "{{ _.apiKey }}"
+    description: ""
+authentication: {}
+metaSortKey: -1684977508037.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,36 @@
+_id: req_f85020c449e74b18ad56dc10111fbeb6
+type: Request
+parentId: fld_bd88fbf88d1541c48838eab732544ebe
+modified: 1685051103001
+created: 1685032919659
+url: "{{ _.domain }}/webhook/V1/brand/{{ _.brandID }}/order/created"
+name: order Created
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "customerEmail": "customer@cultos.io",
+      "orderID": "1235",
+      "totalValue": 50,
+      "shippingValue": 20,
+      "itemValue": 30
+    }
+parameters: []
+headers:
+  - id: pair_19ee6d68cb17433a8ef8cea3800c3c35
+    name: x-api-key
+    value: "{{ _.apiKey }}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1685032919659
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

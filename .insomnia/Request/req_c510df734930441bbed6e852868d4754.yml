@@ -1,0 +1,37 @@
+_id: req_c510df734930441bbed6e852868d4754
+type: Request
+parentId: fld_be645c9c6adb4758a9acf7de6421f458
+modified: 1685023985947
+created: 1684985562451
+url: "{{ _.domain }}/api/admin/V1/brand/{{ _.brandID }}/user"
+name: list - filter
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: limit
+    value: "10"
+  - name: offset
+    value: "0"
+  - name: filters
+    value: '{"fields":[{"field":
+      "name","condition":"CONTAINS","value":"user"}],"op": "AND"}'
+  - name: sorting
+    value: '[{"field":"name","direction":"DESC"}]'
+headers:
+  - name: accept
+    value: application/json
+    id: pair_63983e120b4a4349851cc13b94b980aa
+  - id: pair_0360f958ded74c348e58560121c5683f
+    name: authorization
+    value: bearer {{ _.JWT }}
+    description: ""
+authentication: {}
+metaSortKey: -1684976308359.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

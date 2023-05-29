@@ -1,0 +1,38 @@
+_id: req_a7c98d4e98ca495884ce22f882d52c95
+type: Request
+parentId: fld_6dd2c03a1d53482c9fdd174134654e50
+modified: 1684985434796
+created: 1684985267447
+url: "{{ _.domain }}/api/admin/V1/brand/{{ _.brandID }}/earn-for-purchase"
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": "01H18FA61S9X9F689N6GR2Q0J6",
+      "description": "spend $50 to earn 150 tokens",
+      "rewardValue": 150
+    }
+parameters: []
+headers:
+  - name: accept
+    value: application/json
+    id: pair_63983e120b4a4349851cc13b94b980aa
+  - name: Content-Type
+    value: application/json
+    id: pair_c7977ad6e2404bc5a1dc74b258a5296a
+  - id: pair_0360f958ded74c348e58560121c5683f
+    name: authorization
+    value: bearer {{ _.JWT }}
+    description: ""
+authentication: {}
+metaSortKey: -1684981706912.0625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,11 @@
+_id: env_2d312fa4a38f64e5e33179988bc01f9ae33efb11
+type: Environment
+parentId: wrk_704ddc71c61e419c88194f7a38b88a27
+modified: 1684984814749
+created: 1684974975294
+name: Base Environment
+data: {}
+dataPropertyOrder: {}
+color: null
+isPrivate: false
+metaSortKey: 1684974975295

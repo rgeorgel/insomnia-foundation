@@ -1,0 +1,29 @@
+_id: req_c5f95517baef4d6fbf6cc9c9863387e3
+type: Request
+parentId: fld_be645c9c6adb4758a9acf7de6421f458
+modified: 1685023933407
+created: 1684985562415
+url: "{{ _.domain }}/api/admin/V1/brand/{{ _.brandID
+  }}/user/01H19KZ7G7Z3T1MABRG18R19CG"
+name: get
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: accept
+    value: application/json
+    id: pair_63983e120b4a4349851cc13b94b980aa
+  - id: pair_0360f958ded74c348e58560121c5683f
+    name: authorization
+    value: bearer {{ _.JWT }}
+    description: ""
+authentication: {}
+metaSortKey: -1684979907394.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

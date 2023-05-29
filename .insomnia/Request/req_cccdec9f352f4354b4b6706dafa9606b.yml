@@ -1,0 +1,33 @@
+_id: req_cccdec9f352f4354b4b6706dafa9606b
+type: Request
+parentId: fld_8e0989900e624f18b9ad0d9c238da97a
+modified: 1684985000256
+created: 1684975020033
+url: "{{ _.domain }}/api/admin/V1/onboarding"
+name: Create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "brandName": "Ricardo's",
+      "userName": "Ricardo",
+      "userEmail": "ricardo@test.com",
+      "userPassword": "ricardo"
+    }
+parameters: []
+headers:
+  - name: accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1684975020033
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

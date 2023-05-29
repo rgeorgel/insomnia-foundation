@@ -1,0 +1,29 @@
+_id: req_aa043a3bcf1f449cafdee40bcd312d8e
+type: Request
+parentId: fld_6dd2c03a1d53482c9fdd174134654e50
+modified: 1684985484426
+created: 1684985267468
+url: "{{ _.domain }}/api/admin/V1/brand/{{ _.brandID
+  }}/earn-for-purchase/01H18FA61S9X9F689N6GR2Q0J6"
+name: get
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: accept
+    value: application/json
+    id: pair_63983e120b4a4349851cc13b94b980aa
+  - id: pair_0360f958ded74c348e58560121c5683f
+    name: authorization
+    value: bearer {{ _.JWT }}
+    description: ""
+authentication: {}
+metaSortKey: -1684979907394.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
