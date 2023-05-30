@@ -1,0 +1,39 @@
+_id: req_35adbd6dabc445869f3e48d72a034fb6
+type: Request
+parentId: fld_be645c9c6adb4758a9acf7de6421f458
+modified: 1685466303245
+created: 1684985562468
+url: "{{ _.domain }}/api/admin/V1/brand/{{ _.brandID }}/user"
+name: user - create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "user",
+      "email": "user@cultos.io",
+      "password": "user",
+      "active": true
+    }
+parameters: []
+headers:
+  - name: accept
+    value: application/json
+    id: pair_63983e120b4a4349851cc13b94b980aa
+  - name: Content-Type
+    value: application/json
+    id: pair_c7977ad6e2404bc5a1dc74b258a5296a
+  - id: pair_0360f958ded74c348e58560121c5683f
+    name: authorization
+    value: bearer {{ _.JWT }}
+    description: ""
+authentication: {}
+metaSortKey: -1684983506429.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_8d280020b6d9436ba6284b0c78532250
+type: Request
+parentId: fld_175f6e125e584cfda963140a406e4e74
+modified: 1685466175262
+created: 1685465672892
+url: "{{ _.domain }}/api/V1/brand/{{ _.brandID
+  }}/product/01H1PS23Y7MDKFJE3ZK4W04VRM"
+name: product - delete
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: accept
+    value: application/json
+    id: pair_63983e120b4a4349851cc13b94b980aa
+  - id: pair_0360f958ded74c348e58560121c5683f
+    name: x-api-key
+    value: "{{ _.apiKey }}"
+    description: ""
+authentication: {}
+metaSortKey: -1684976308309.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,37 @@
+_id: req_964d9c3afc494a6bb44f896c197abf37
+type: Request
+parentId: fld_a279c1b1c15942a89219609823242f4f
+modified: 1685466525835
+created: 1685024021113
+url: "{{ _.domain }}/api/V1/brand/{{ _.brandID }}/customer"
+name: customer - list - filter
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: limit
+    value: "10"
+  - name: offset
+    value: "0"
+  - name: filters
+    value: '{"fields":[{"field": "name","condition":"CONTAINS","value":"cus"}],"op":
+      "AND"}'
+  - name: sorting
+    value: '[{"field":"name","direction":"DESC"}]'
+headers:
+  - name: accept
+    value: application/json
+    id: pair_63983e120b4a4349851cc13b94b980aa
+  - id: pair_0360f958ded74c348e58560121c5683f
+    name: x-api-key
+    value: "{{ _.apiKey }}"
+    description: ""
+authentication: {}
+metaSortKey: -1684976308359.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

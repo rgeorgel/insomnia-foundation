@@ -1,0 +1,37 @@
+_id: req_92649a4781504e54bf3de49b6a0c23c1
+type: Request
+parentId: fld_a279c1b1c15942a89219609823242f4f
+modified: 1685466496967
+created: 1685024021069
+url: "{{ _.domain }}/api/V1/brand/{{ _.brandID }}/customer"
+name: customer - update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": "01H1PRTHGR3XD6KA0K71DHGQQ5",
+      "email": "customer2@cultos.io"
+    }
+parameters: []
+headers:
+  - name: accept
+    value: application/json
+    id: pair_63983e120b4a4349851cc13b94b980aa
+  - name: Content-Type
+    value: application/json
+    id: pair_c7977ad6e2404bc5a1dc74b258a5296a
+  - id: pair_8812abd7a47a44fa918c3305394de378
+    name: x-api-key
+    value: "{{ _.apiKey }}"
+    description: ""
+authentication: {}
+metaSortKey: -1684981706912.0625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

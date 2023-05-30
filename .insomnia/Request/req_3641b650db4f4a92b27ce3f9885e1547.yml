@@ -1,0 +1,41 @@
+_id: req_3641b650db4f4a92b27ce3f9885e1547
+type: Request
+parentId: fld_175f6e125e584cfda963140a406e4e74
+modified: 1685466168738
+created: 1685465281236
+url: "{{ _.domain }}/api/V1/brand/{{ _.brandID }}/product"
+name: product - list - filter
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: limit
+    value: "10"
+    id: pair_32004f40235147ba90f9bab5ae9f9b1a
+  - name: offset
+    value: "0"
+    id: pair_39e057eeed194e598eff8b79ecb1cf25
+  - name: filters
+    value: '{"fields":[{"field":
+      "name","condition":"CONTAINS","value":"name"}],"op": "AND"}'
+    id: pair_924812f3cf7c4b21aa3eeed0066d62f4
+  - name: sorting
+    value: '[{"field":"name","direction":"DESC"}]'
+    id: pair_e7d21353a0bb4aa59e684a52cd8d55ab
+headers:
+  - name: accept
+    value: application/json
+    id: pair_63983e120b4a4349851cc13b94b980aa
+  - id: pair_0360f958ded74c348e58560121c5683f
+    name: x-api-key
+    value: "{{ _.apiKey }}"
+    description: ""
+authentication: {}
+metaSortKey: -1684976308359.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,37 @@
+_id: req_1c5808ff2dbd4867b547975331fe5c02
+type: Request
+parentId: fld_175f6e125e584cfda963140a406e4e74
+modified: 1685466136659
+created: 1685465281230
+url: "{{ _.domain }}/api/V1/brand/{{ _.brandID }}/product"
+name: product - update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": "01H1PS23Y7MDKFJE3ZK4W04VRM",
+      "name": "name updated"
+    }
+parameters: []
+headers:
+  - name: accept
+    value: application/json
+    id: pair_63983e120b4a4349851cc13b94b980aa
+  - name: Content-Type
+    value: application/json
+    id: pair_c7977ad6e2404bc5a1dc74b258a5296a
+  - id: pair_8812abd7a47a44fa918c3305394de378
+    name: x-api-key
+    value: "{{ _.apiKey }}"
+    description: ""
+authentication: {}
+metaSortKey: -1684981706912.0625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

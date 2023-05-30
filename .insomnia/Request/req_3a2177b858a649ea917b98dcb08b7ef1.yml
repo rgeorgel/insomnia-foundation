@@ -1,0 +1,31 @@
+_id: req_3a2177b858a649ea917b98dcb08b7ef1
+type: Request
+parentId: fld_28665fcdc34a48ec8e50febad071ad92
+modified: 1685029791194
+created: 1684975108681
+url: "{{ _.domain }}/api/admin/V1/auth"
+name: login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "ricardo@test.com",
+    	"password": "ricardo"
+    }
+parameters: []
+headers:
+  - name: accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1684975108681
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,40 @@
+_id: req_0b361c51c94244569eef9cd4834dbb34
+type: Request
+parentId: fld_175f6e125e584cfda963140a406e4e74
+modified: 1685466152707
+created: 1685465281237
+url: "{{ _.domain }}/api/V1/brand/{{ _.brandID }}/product"
+name: product - create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "name",
+    	"active": true,
+    	"sku": "sku",
+    	"valueInTokens": 100,
+    	"image": "image"
+    }
+parameters: []
+headers:
+  - name: accept
+    value: application/json
+    id: pair_63983e120b4a4349851cc13b94b980aa
+  - name: Content-Type
+    value: application/json
+    id: pair_c7977ad6e2404bc5a1dc74b258a5296a
+  - id: pair_02a9ea8b4b11410fa2f9431514eaeee3
+    name: x-api-key
+    value: "{{ _.apiKey }}"
+    description: ""
+authentication: {}
+metaSortKey: -1684983506429.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

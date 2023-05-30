@@ -1,0 +1,39 @@
+_id: req_bd80c4c0f2c44135a208a655756436e5
+type: Request
+parentId: fld_a279c1b1c15942a89219609823242f4f
+modified: 1685466491331
+created: 1685024021127
+url: "{{ _.domain }}/api/V1/brand/{{ _.brandID }}/customer"
+name: customer - create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "customer 2",
+      "email": "customer@cultos.io",
+      "dob": "1989-05-03",
+      "active": true
+    }
+parameters: []
+headers:
+  - name: accept
+    value: application/json
+    id: pair_63983e120b4a4349851cc13b94b980aa
+  - name: Content-Type
+    value: application/json
+    id: pair_c7977ad6e2404bc5a1dc74b258a5296a
+  - id: pair_02a9ea8b4b11410fa2f9431514eaeee3
+    name: x-api-key
+    value: "{{ _.apiKey }}"
+    description: ""
+authentication: {}
+metaSortKey: -1684983506429.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
