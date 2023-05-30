@@ -1,13 +1,13 @@
-_id: req_c5f95517baef4d6fbf6cc9c9863387e3
+_id: req_8d280020b6d9436ba6284b0c78532250
 type: Request
-parentId: fld_be645c9c6adb4758a9acf7de6421f458
-modified: 1685466311783
-created: 1684985562415
-url: "{{ _.domain }}/api/admin/V1/brand/{{ _.brandID
-  }}/user/01H19KZ7G7Z3T1MABRG18R19CG"
-name: user - get
+parentId: fld_175f6e125e584cfda963140a406e4e74
+modified: 1685466175262
+created: 1685465672892
+url: "{{ _.domain }}/api/V1/brand/{{ _.brandID
+  }}/product/01H1PS23Y7MDKFJE3ZK4W04VRM"
+name: product - delete
 description: ""
-method: GET
+method: DELETE
 body: {}
 parameters: []
 headers:
@@ -15,11 +15,11 @@ headers:
     value: application/json
     id: pair_63983e120b4a4349851cc13b94b980aa
   - id: pair_0360f958ded74c348e58560121c5683f
-    name: authorization
-    value: bearer {{ _.JWT }}
+    name: x-api-key
+    value: "{{ _.apiKey }}"
     description: ""
 authentication: {}
-metaSortKey: -1684979907394.5
+metaSortKey: -1684976308309.375
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

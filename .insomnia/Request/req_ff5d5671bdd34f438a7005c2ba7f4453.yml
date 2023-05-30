@@ -1,10 +1,10 @@
 _id: req_ff5d5671bdd34f438a7005c2ba7f4453
 type: Request
 parentId: fld_6dd2c03a1d53482c9fdd174134654e50
-modified: 1684985544456
+modified: 1685466261345
 created: 1684985267503
 url: "{{ _.domain }}/api/admin/V1/brand/{{ _.brandID }}/earn-for-purchase"
-name: list - filter
+name: efp - list - filter
 description: ""
 method: GET
 body: {}

@@ -1,19 +1,21 @@
-_id: req_a7c98d4e98ca495884ce22f882d52c95
+_id: req_0b361c51c94244569eef9cd4834dbb34
 type: Request
-parentId: fld_6dd2c03a1d53482c9fdd174134654e50
-modified: 1685466246140
-created: 1684985267447
-url: "{{ _.domain }}/api/admin/V1/brand/{{ _.brandID }}/earn-for-purchase"
-name: efp - update
+parentId: fld_175f6e125e584cfda963140a406e4e74
+modified: 1685466152707
+created: 1685465281237
+url: "{{ _.domain }}/api/V1/brand/{{ _.brandID }}/product"
+name: product - create
 description: ""
-method: PUT
+method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"id": "01H18FA61S9X9F689N6GR2Q0J6",
-      "description": "spend $50 to earn 150 tokens",
-      "rewardValue": 150
+      "name": "name",
+    	"active": true,
+    	"sku": "sku",
+    	"valueInTokens": 100,
+    	"image": "image"
     }
 parameters: []
 headers:
@@ -23,12 +25,12 @@ headers:
   - name: Content-Type
     value: application/json
     id: pair_c7977ad6e2404bc5a1dc74b258a5296a
-  - id: pair_0360f958ded74c348e58560121c5683f
-    name: authorization
-    value: bearer {{ _.JWT }}
+  - id: pair_02a9ea8b4b11410fa2f9431514eaeee3
+    name: x-api-key
+    value: "{{ _.apiKey }}"
     description: ""
 authentication: {}
-metaSortKey: -1684981706912.0625
+metaSortKey: -1684983506429.625
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

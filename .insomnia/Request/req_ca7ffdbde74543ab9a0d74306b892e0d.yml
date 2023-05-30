@@ -1,10 +1,10 @@
 _id: req_ca7ffdbde74543ab9a0d74306b892e0d
 type: Request
 parentId: fld_6605da35c3314db48805175c792aaec2
-modified: 1684985457580
+modified: 1685466215964
 created: 1684984954716
 url: "{{ _.domain }}/api/admin/V1/brand/{{ _.brandID }}"
-name: get
+name: brand - get
 description: ""
 method: GET
 body: {}

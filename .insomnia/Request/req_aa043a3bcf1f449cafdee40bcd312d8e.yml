@@ -1,11 +1,11 @@
 _id: req_aa043a3bcf1f449cafdee40bcd312d8e
 type: Request
 parentId: fld_6dd2c03a1d53482c9fdd174134654e50
-modified: 1684985484426
+modified: 1685466250704
 created: 1684985267468
 url: "{{ _.domain }}/api/admin/V1/brand/{{ _.brandID
   }}/earn-for-purchase/01H18FA61S9X9F689N6GR2Q0J6"
-name: get
+name: efp - get
 description: ""
 method: GET
 body: {}

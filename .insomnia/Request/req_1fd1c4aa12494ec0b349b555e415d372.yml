@@ -1,10 +1,10 @@
 _id: req_1fd1c4aa12494ec0b349b555e415d372
 type: Request
 parentId: fld_6605da35c3314db48805175c792aaec2
-modified: 1684984992476
+modified: 1685466210261
 created: 1684984706108
 url: "{{ _.domain }}/api/admin/V1/brand"
-name: update
+name: brand - update
 description: ""
 method: PUT
 body:

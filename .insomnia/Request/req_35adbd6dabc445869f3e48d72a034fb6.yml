@@ -1,10 +1,10 @@
 _id: req_35adbd6dabc445869f3e48d72a034fb6
 type: Request
 parentId: fld_be645c9c6adb4758a9acf7de6421f458
-modified: 1685023854954
+modified: 1685466303245
 created: 1684985562468
 url: "{{ _.domain }}/api/admin/V1/brand/{{ _.brandID }}/user"
-name: create
+name: user - create
 description: ""
 method: POST
 body:

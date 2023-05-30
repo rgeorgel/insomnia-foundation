@@ -1,11 +1,11 @@
 _id: req_4be0edba0357459daca52797a52a1ebb
 type: Request
 parentId: fld_a279c1b1c15942a89219609823242f4f
-modified: 1685024256971
+modified: 1685466507576
 created: 1685024021083
 url: "{{ _.domain }}/api/V1/brand/{{ _.brandID
   }}/customer/01H19M97XCZ4DZA1J51PE4V1A4"
-name: get
+name: customer - get
 description: ""
 method: GET
 body: {}

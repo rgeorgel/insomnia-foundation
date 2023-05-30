@@ -1,10 +1,10 @@
 _id: req_f85020c449e74b18ad56dc10111fbeb6
 type: Request
 parentId: fld_bd88fbf88d1541c48838eab732544ebe
-modified: 1685051103001
+modified: 1685466660497
 created: 1685032919659
 url: "{{ _.domain }}/webhook/V1/brand/{{ _.brandID }}/order/created"
-name: order Created
+name: webhook - order Created
 description: ""
 method: POST
 body:

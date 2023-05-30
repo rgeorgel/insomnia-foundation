@@ -1,17 +1,17 @@
 _id: req_bd80c4c0f2c44135a208a655756436e5
 type: Request
 parentId: fld_a279c1b1c15942a89219609823242f4f
-modified: 1685024183113
+modified: 1685466491331
 created: 1685024021127
 url: "{{ _.domain }}/api/V1/brand/{{ _.brandID }}/customer"
-name: create
+name: customer - create
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-      "name": "customer 1",
+      "name": "customer 2",
       "email": "customer@cultos.io",
       "dob": "1989-05-03",
       "active": true

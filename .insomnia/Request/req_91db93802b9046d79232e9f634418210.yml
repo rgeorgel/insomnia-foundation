@@ -1,10 +1,10 @@
 _id: req_91db93802b9046d79232e9f634418210
 type: Request
 parentId: fld_6605da35c3314db48805175c792aaec2
-modified: 1684985205911
+modified: 1685466229746
 created: 1684985146274
 url: "{{ _.domain }}/api/admin/V1/brand"
-name: list - filter
+name: brand - list - filter
 description: ""
 method: GET
 body: {}
